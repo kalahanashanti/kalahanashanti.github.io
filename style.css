@@ -1,0 +1,41 @@
+/* Selectores por clase */
+.texto-parrafo {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.imagen {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.lista {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Selectores por ID */
+#encabezado {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#sobre-mi {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fffbe7;
+}
+
+/* Pie de página */
+.pie {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  margin-top: 40px;
+}
