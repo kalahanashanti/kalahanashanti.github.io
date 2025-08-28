@@ -39,3 +39,23 @@
   color: gray;
   margin-top: 40px;
 }
+
+/* === Responsive helpers added === */
+* { box-sizing: border-box; }
+
+html, body { max-width: 100%; }
+
+img, video, canvas, svg { max-width: 100%; height: auto; display: block; }
+
+/* Tipografías fluidas */
+#encabezado h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); }
+#encabezado p, .texto-parrafo { font-size: clamp(1rem, 2.5vw, 1.125rem); }
+
+/* Espaciados fluidos */
+#sobre-mi { margin: clamp(12px, 3vw, 24px); padding: clamp(12px, 3vw, 24px); }
+
+/* Listas más legibles en pantallas pequeñas */
+@media (max-width: 480px) {
+  .lista li { line-height: 1.4; }
+}
+/* === End helpers === */
